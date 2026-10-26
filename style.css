@@ -1,4 +1,4 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -88,8 +88,8 @@ button{
     background-color: transparent;
     margin-right: 10px;
     text-decoration: none;
-} */
-*{
+} 
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: content-box;
@@ -151,4 +151,4 @@ h2 span{
     border: 1px solid black;
     background: transparent;
     margin-top: 10px;
-}
+} */
