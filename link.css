@@ -1,0 +1,284 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+     font-family: "Archivo", sans-serif;
+     scroll-behavior: smooth;
+}
+.image img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
+.navbar img{
+        width: 200px;
+        height: auto;
+        object-fit: cover;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+}
+ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px ;
+}
+.link{
+    display: flex;
+}
+.link a{
+    background-color: blue;
+    margin-top: 10px;
+    padding: 5px 12px;
+    color:white;
+    border-radius: 10%;
+    margin-right: 10px ;
+    text-decoration: none
+}
+ #skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 60px 120px;
+ }
+.skill button{
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 8px 18px;
+    margin-top: 10px;
+    color:black ;
+background-color: transparent;
+margin-right: 10px;
+text-decoration: none;
+}
+#skill p{
+    text-align: center;
+}
+#searh h2{
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:60px 120px;
+    gap: 12px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+input,textarea{
+    padding: 6px 14px;
+    outline: 0;
+    font-size: 16px;
+}
+button{
+     border: 1px solid black;
+      border-radius: 4px;
+    padding: 8px 16px;
+    margin-top: 10px;
+    color: black;
+    background-color: transparent;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+
+/* =========================
+   Tablet Responsive
+   ========================= */
+
+@media (max-width: 1024px) {
+
+    .navbar {
+        padding: 20px 40px;
+    }
+
+    .main {
+        padding: 40px;
+        gap: 30px;
+    }
+
+    #skill {
+        padding: 50px 40px;
+    }
+
+    form {
+        width: 100%;
+        max-width: 700px;
+        padding: 40px;
+    }
+
+    .image img {
+        width: 260px;
+        height: 260px;
+    }
+}
+
+
+/* =========================
+   Mobile Responsive
+   ========================= */
+
+@media (max-width: 768px) {
+
+    /* Navbar */
+
+    .navbar {
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .navbar img {
+        width: 150px;
+    }
+
+    ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+
+    /* Main Section */
+
+    .main {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 40px 20px;
+        gap: 25px;
+    }
+
+    .main h2 {
+        font-size: 25px;
+        line-height: 1.4;
+    }
+
+    .main p {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .image img {
+        width: 220px;
+        height: 220px;
+        max-width: 100%;
+    }
+
+    .link {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .link a {
+        margin-right: 0;
+        padding: 8px 16px;
+    }
+
+
+    /* Skills Section */
+
+    #skill {
+        padding: 40px 20px;
+        gap: 20px;
+    }
+
+    #skill h2,
+    #searh h2 {
+        font-size: 25px;
+    }
+
+    #skill p {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .skill {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .skill button {
+        margin: 0;
+    }
+
+
+    /* Contact Section */
+
+    form {
+        width: 100%;
+        max-width: 100%;
+        padding: 30px 20px;
+        gap: 12px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    form button {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+
+/* =========================
+   Small Mobile Screens
+   ========================= */
+
+@media (max-width: 400px) {
+
+    .navbar img {
+        width: 120px;
+    }
+
+    ul {
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    .main {
+        padding: 30px 15px;
+    }
+
+    .main h2 {
+        font-size: 21px;
+    }
+
+    .image img {
+        width: 180px;
+        height: 180px;
+    }
+
+    #skill {
+        padding: 30px 15px;
+    }
+
+    form {
+        padding: 25px 15px;
+    }
+} */
